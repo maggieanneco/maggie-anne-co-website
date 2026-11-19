@@ -18,3 +18,30 @@
 @media(max-width:800px){.site-header{align-items:center;gap:.5rem}.brand img{width:150px;max-height:54px}.nav{justify-content:flex-end;gap:.45rem .8rem}.nav a{font-size:.78rem}.photo-grid{grid-template-columns:repeat(2,1fr)}.service-feature-grid{grid-template-columns:1fr}.service-card:nth-child(2){transform:none}.creative-grid{grid-template-columns:repeat(2,1fr)}.hero-side-note{right:3%;opacity:.6}.home-feature-layout,.intro-feature{gap:2rem}.about-ending{grid-template-columns:1fr}.about-ending-mark{margin-bottom:-1rem}}
 @media(max-width:560px){.site-header{position:relative;flex-direction:column;align-items:center;padding:.65rem 1rem}.brand img{width:180px;max-height:56px;object-position:center}.nav{justify-content:center;gap:.55rem .9rem}.nav a{font-size:.78rem}.hero{padding:3.7rem 1.35rem}.hero:after{display:none}.section{padding-block:3rem}.home-feature-layout,.intro-feature,.home-process .home-feature-layout,.about-intro,.communication-section{grid-template-columns:1fr;gap:1.6rem}.hero-side-note{display:none}.mini-showcase{min-height:280px;gap:.6rem;padding:.5rem 0 2rem}.showcase-card{min-height:205px;padding:1rem}.showcase-card strong{font-size:1.35rem}.showcase-note{left:27%;width:125px}.intro-script-panel{min-height:190px;max-width:340px;margin:auto;width:100%}.intro-copy{padding:0 .2rem}.process-preview{padding:.3rem}.preview-step{min-height:95px}.photo-main{min-height:320px}.photo-grid{grid-template-columns:repeat(2,1fr);gap:.7rem}.photo-grid .photo-placeholder{min-height:200px;padding:1rem}.photo-grid .photo-placeholder:nth-child(even){margin-top:1rem}.photo-caption{font-size:1.7rem}.photo-sticker{width:78px;height:78px;font-size:1rem}.service-heading{grid-template-columns:1fr;gap:1rem}.section-number{width:4rem;height:4rem;font-size:2.8rem}.founding-offer{grid-template-columns:1fr;gap:1.2rem;margin-top:2rem}.offer-stamp{width:100px;height:100px;font-size:1rem}.details-grid,.process-grid,.creative-grid{grid-template-columns:1fr}.service-card:nth-child(2){transform:none}.communication-ornament{flex-direction:row;justify-content:center;gap:.6rem;font-size:2rem}.about-ending-mark{font-size:3rem}.panel-feature:after{font-size:3.5rem;right:1rem;top:.6rem}}
 @media(prefers-reduced-motion:reduce){.sparkle{animation:none;opacity:.45}html{scroll-behavior:auto}.btn,.creative-card,.process-card,.showcase-card{transition:none}}
+
+
+/* Refinements from mobile review */
+.home-section-copy h2 .script-accent,
+.light-copy h2 .script-accent{display:block;font-style:normal;margin-top:.08em}
+.home-section-copy h2,.light-copy h2{max-width:100%}
+.about-ending .panel-feature{padding-top:1.8rem;padding-bottom:2rem}
+.about-ending .panel-feature .eyebrow{margin-bottom:.45rem}
+.about-ending .panel-feature h2{display:block;margin:.1rem 0 .8rem;max-width:640px}
+.service-card{padding:1.2rem 1.35rem}
+.service-card .card-doodle{position:absolute;top:1.15rem;right:1.25rem;font-size:1.8rem;margin:0}
+.service-card .card-kicker{padding-right:2.2rem;margin:.15rem 0 .65rem}
+.service-card h3{max-width:92%;margin-bottom:.45rem}
+@media(max-width:560px){
+  .mini-showcase{display:grid;grid-template-columns:1fr;min-height:0;gap:.8rem;padding:.4rem 0 0}
+  .showcase-card,.showcase-web,.showcase-design{display:grid;grid-template-columns:58px 1fr;grid-template-rows:auto auto;align-content:center;align-items:center;gap:.1rem 1rem;min-height:116px;padding:1rem 1.15rem;transform:none;border-radius:18px}
+  .showcase-card:hover{transform:none}
+  .showcase-number{top:.7rem;right:1rem;left:auto;font-size:1.15rem}
+  .showcase-symbol{grid-column:1;grid-row:1/3;font-size:2.8rem;line-height:1;padding:0;margin:0;align-self:center}
+  .showcase-card strong{grid-column:2;grid-row:1;font-size:1.35rem;align-self:end;padding-right:1.6rem}
+  .showcase-card small{grid-column:2;grid-row:2;font-size:.82rem;line-height:1.35;align-self:start}
+  .showcase-note{position:static;width:auto;max-width:260px;height:auto;min-height:0;padding:.55rem 1rem;margin:.1rem auto 0;border-radius:999px;display:block;text-align:center;font-size:1.45rem;transform:none}
+  .home-section-copy h2 .script-accent,.light-copy h2 .script-accent{margin-top:.12em}
+  .service-card{padding:1.15rem 1.25rem}
+  .service-card .card-doodle{top:1rem;right:1.1rem}
+  .service-card .card-kicker{margin-bottom:.45rem}
+}
