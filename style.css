@@ -1,0 +1,64 @@
+/* Maggie Anne Co. — brand colors */
+:root {
+  --plum: #503845;
+  --rose: #BD8D95;
+  --cream: #E3D4CE;
+  --mauve: #856476;
+  --paper: #FAF7F4;
+  --ink: #342A30;
+}
+
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body {
+  margin: 0;
+  color: var(--ink);
+  background: var(--paper);
+  font-family: Georgia, "Times New Roman", serif;
+  line-height: 1.65;
+}
+a { color: inherit; }
+.site-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.5rem;
+  padding: 1.25rem clamp(1.25rem, 5vw, 5rem);
+  background: var(--paper);
+}
+.wordmark { color: var(--plum); font-size: 1.35rem; text-decoration: none; }
+nav { display: flex; flex-wrap: wrap; gap: 1.25rem; }
+nav a { font-family: Arial, sans-serif; font-size: .9rem; text-decoration: none; }
+.hero {
+  min-height: 72vh;
+  display: grid;
+  align-content: center;
+  justify-items: start;
+  padding: 6rem clamp(1.25rem, 12vw, 12rem);
+  color: var(--paper);
+  background: var(--plum);
+}
+.hero h1 { max-width: 850px; margin: .4rem 0 1rem; font-size: clamp(2.8rem, 7vw, 6rem); line-height: 1.05; font-weight: 400; }
+.hero h1 span { display: block; color: var(--cream); font-style: italic; }
+.hero p:not(.eyebrow) { max-width: 620px; font-size: 1.15rem; }
+.eyebrow { color: var(--mauve); font-family: Arial, sans-serif; font-size: .75rem; letter-spacing: .16em; text-transform: uppercase; }
+.hero .eyebrow { color: var(--cream); }
+.button {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: .85rem 1.25rem;
+  border: 1px solid var(--rose);
+  border-radius: 999px;
+  color: var(--plum);
+  background: var(--rose);
+  font-family: Arial, sans-serif;
+  text-decoration: none;
+}
+.section { max-width: 950px; margin: 0 auto; padding: 5rem 1.5rem; }
+.section h2 { color: var(--plum); font-size: clamp(2rem, 4vw, 3.5rem); font-weight: 400; line-height: 1.15; }
+.site-footer { padding: 2rem 1.5rem; color: var(--cream); background: var(--plum); text-align: center; font-family: Arial, sans-serif; font-size: .85rem; }
+@media (max-width: 640px) {
+  .site-header { align-items: flex-start; flex-direction: column; }
+  nav { gap: .8rem; }
+  .hero { min-height: 65vh; padding-top: 4rem; padding-bottom: 4rem; }
+}
