@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght,SOFT,WONK@9..144,400,20,1;9..144,500,20,1;9..144,600,20,1&family=Nunito+Sans:wght@400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Nunito+Sans:wght@400;500;600;700;800&display=swap');
 :root{--plum:#503845;--rose:#BD8D95;--cream:#E3D4CE;--mauve:#856476;--paper:#FFF9F4;--ink:#342A30;--sage:#85816A;--butter:#E8C98C;--lilac:#D9C9D9}
 *{box-sizing:border-box}
 html{scroll-behavior:smooth}
