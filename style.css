@@ -45,3 +45,22 @@
   .service-card .card-doodle{top:1rem;right:1.1rem}
   .service-card .card-kicker{margin-bottom:.45rem}
 }
+
+
+/* Compact creative-service cards with custom line-art illustrations */
+.card-doodle{position:absolute;top:1rem;right:1.2rem;width:2.2rem;height:2.2rem;color:var(--rose);margin:0}
+.card-doodle svg,.creative-icon svg{width:100%;height:100%;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+.creative-card{display:grid;grid-template-columns:3.25rem 1fr;gap:1rem;align-items:start;min-height:0;padding:1.35rem}
+.creative-icon{display:block;width:3rem;height:3rem;color:var(--rose);margin:.1rem 0 0}
+.creative-card-copy{min-width:0}
+.creative-card h3{margin:.05rem 0 .45rem;font-size:1.22rem;line-height:1.18}
+.creative-card p{margin:0;font-size:.94rem;line-height:1.5}
+.creative-card:after{font-size:2.8rem;right:.55rem;bottom:-.8rem}
+@media(max-width:560px){
+ .creative-grid{grid-template-columns:1fr;gap:.75rem}
+ .creative-card{grid-template-columns:2.7rem 1fr;gap:.9rem;padding:1.05rem 1.15rem;min-height:0}
+ .creative-icon{width:2.5rem;height:2.5rem}
+ .creative-card h3{font-size:1.18rem}
+ .creative-card p{font-size:.9rem;line-height:1.45}
+ .card-doodle{width:1.9rem;height:1.9rem;top:.85rem;right:1rem}
+}
