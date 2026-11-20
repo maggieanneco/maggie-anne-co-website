@@ -99,3 +99,9 @@
 
 /* Parisienne accents requested for selected About page phrases */
 .about-page .parisienne-accent{font-family:'Parisienne',cursive;font-style:normal;font-weight:400;text-transform:lowercase}
+
+/* Process step numbers: small, soft badge treatment */
+.process-card .number{width:3.65rem;height:3.65rem;display:grid;place-items:center;border-radius:48% 44% 52% 46%;background:var(--cream);border:1px solid #85647635;color:var(--plum);font:600 1.65rem/1 'Fraunces',Georgia,serif;box-shadow:0 4px 0 #50384512;transform:rotate(-6deg)}
+.process-card:nth-child(2) .number{background:#E9D9DC}
+.process-card:nth-child(3) .number{background:#E6DCE8}
+.process-card:nth-child(4) .number{background:#F0E2C9}
