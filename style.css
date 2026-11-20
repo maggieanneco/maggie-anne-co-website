@@ -70,3 +70,22 @@
 .hero h1 .script-accent{display:block;color:var(--cream);font-size:clamp(2.8rem,5.2vw,4.6rem);line-height:1.05;margin-top:.08em}
 .section .script-accent{font-weight:400}
 @media(max-width:560px){.hero h1 .script-accent{font-size:clamp(2.35rem,11vw,3.35rem)}}
+
+
+/* Latest review refinements */
+.intro-script-panel{padding:1.5rem;overflow:visible}
+.intro-script-panel .script-accent{display:block;width:100%;max-width:100%;font-size:clamp(2.15rem,3.2vw,2.85rem);line-height:1.18;text-align:center;white-space:normal}
+.process-icon svg{display:block;width:2.15rem;height:2.15rem;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
+.process-icon{background:var(--cream);color:var(--mauve);border:1px solid #85647635}
+.panel .eyebrow{margin-bottom:.35rem}
+.panel .eyebrow+h2{margin-top:.08rem;margin-bottom:.65rem}
+.about-ending .panel-feature .eyebrow{margin-bottom:.35rem}
+.about-ending .panel-feature h2{margin:.08rem 0 .65rem}
+.process-card .eyebrow{margin-bottom:.28rem}
+.process-card .eyebrow+h3{margin-top:.04rem}
+.communication-section .panel .eyebrow+h2{margin-top:.08rem}
+@media(max-width:560px){
+ .intro-script-panel{min-height:190px;padding:1.25rem}
+ .intro-script-panel .script-accent{font-size:clamp(2.1rem,9vw,2.65rem)}
+ .process-icon svg{width:2rem;height:2rem}
+}
