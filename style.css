@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Nunito+Sans:wght@400;500;600;700;800&family=Parisienne&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,400;1,500;1,600&family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Nunito+Sans:wght@400;500;600;700;800&family=Parisienne&display=swap');
 :root{--plum:#503845;--rose:#BD8D95;--cream:#E3D4CE;--mauve:#856476;--paper:#FFF9F4;--ink:#342A30;--sage:#85816A;--butter:#E8C98C;--lilac:#D9C9D9}
 *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--paper);color:var(--ink);font:16px/1.72 'Nunito Sans',Arial,sans-serif}a{color:inherit}img{max-width:100%;height:auto}
 .site-header{display:flex;align-items:center;justify-content:space-between;gap:1.5rem;padding:.7rem clamp(1rem,4vw,4rem);background:var(--paper);position:sticky;top:0;z-index:10;box-shadow:0 2px 18px #342a3010}.brand{display:block;flex:0 1 auto;min-width:0}.brand img{display:block;width:min(205px,34vw);max-height:68px;object-fit:contain;object-position:left center}.nav{display:flex;gap:clamp(.65rem,1.8vw,1.4rem);align-items:center;flex-wrap:wrap}.nav a{text-decoration:none;font-size:.88rem;font-weight:800;color:var(--plum);white-space:nowrap}.nav a:hover,.nav a[aria-current=page]{color:var(--mauve);text-decoration:underline;text-underline-offset:5px}
@@ -92,7 +92,7 @@
 
 
 /* Selective Caveat accents and Services hero alignment */
-.caveat-script{font-family:'Caveat','Comic Sans MS',cursive;font-weight:600}
-.caveat-heading{font-family:'Caveat','Comic Sans MS',cursive;font-weight:600;font-size:clamp(2.4rem,4.4vw,3.6rem);line-height:1.08;letter-spacing:0}
-.about-page .script-accent,.about-page .photo-sticker{font-family:'Caveat','Comic Sans MS',cursive;font-weight:600}
+.cormorant-accent{font-family:'Cormorant Garamond',Georgia,serif;font-style:italic;font-weight:500}
+.cormorant-heading{font-family:'Cormorant Garamond',Georgia,serif;font-style:italic;font-weight:500;font-size:clamp(2.4rem,4.4vw,3.6rem);line-height:1.08;letter-spacing:0}
+.about-page .script-accent{font-family:'Cormorant Garamond',Georgia,serif;font-style:italic;font-weight:500}.about-page .photo-sticker{font-family:'Parisienne',cursive;font-style:normal;font-weight:400}
 .services-hero h1 .script-accent{display:inline;font-size:.82em;line-height:1;margin:0;vertical-align:baseline;white-space:normal}
