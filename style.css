@@ -96,3 +96,6 @@
 .cormorant-heading{font-family:'Cormorant Garamond',Georgia,serif;font-style:italic;font-weight:500;font-size:clamp(2.4rem,4.4vw,3.6rem);line-height:1.08;letter-spacing:0}
 .about-page .script-accent{font-family:'Cormorant Garamond',Georgia,serif;font-style:italic;font-weight:500}.about-page .photo-sticker{font-family:'Parisienne',cursive;font-style:normal;font-weight:400}
 .services-hero h1 .script-accent{display:inline;font-size:.82em;line-height:1;margin:0;vertical-align:baseline;white-space:normal}
+
+/* Parisienne accents requested for selected About page phrases */
+.about-page .parisienne-accent{font-family:'Parisienne',cursive;font-style:normal;font-weight:400;text-transform:lowercase}
